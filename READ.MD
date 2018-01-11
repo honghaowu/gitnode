@@ -20,6 +20,7 @@
   1.working directory：工作区 -> git add xxx 提交到暂存区  
   2.staging area：暂存区      -> git commit -m "备注信息" 提交到分支
   3.local repository：历史仓库  ->git push  提交到远程分支
+  ![git流程](https://github.com/honghaowu/gitnode/blob/master/git.jpg)  
 ## git 分支
 * 分支创建：git branch xx //新建xx分支
 * 查看分支：git branch //当前分支前面会加“*”号标记    
@@ -69,7 +70,7 @@
 
 ## 在dev分支开发代码
 - git checkout dev  # 切换到dev分支进行开发  
->> 开发代码之后，我们有两个选择  
+    开发代码之后，我们有两个选择  
     1.如果功能开发完成了，可以合并主分支  
       git checkout master  # 切换到主分支  
       git merge dev  # 把dev分支的更改和master合并  
